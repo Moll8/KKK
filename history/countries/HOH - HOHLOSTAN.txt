@@ -1,18 +1,19 @@
 ﻿capital = 777  # Replace with your capital's province ID (e.g., Kyiv is 777 in vanilla)
+name = "HOH"
 
 # Government & Politics
 set_politics = {
-    ruling_party = fascism  # or neutrality/communism for junta-style rule
+    ruling_party = democratic  # or neutrality/communism for junta-style rule
     last_election = "1933.1.1"  # Fake election date (or none at all)
-    election_frequency = 999  # No elections
-    elections_allowed = no  # Dictatorship mode
+    election_frequency = 48  # No elections
+    elections_allowed = yes  # Dictatorship mode
 }
 
 set_laws = {
-    conscription_law = "limited_conscription"   # Moderate draft
-    economy_law = "partial_mobilization"        # Mixed military-civilian industry
-    trade_law = "export_focus"                  # Controlled trade
-    training_laws = "standard_training"         # Normal troop quality
+    conscription_law = limited_conscription   # Moderate draft
+    economy_law = partial_mobilization        # Mixed military-civilian industry
+    trade_law = export_focus                  # Controlled trade
+    training_laws = standard_training         # Normal troop quality
 }
 
 
