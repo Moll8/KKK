@@ -1,8 +1,17 @@
-HOH_ilya_nesmiyan = {
-    name = "Илья Несмиян"
-    #portrait = "gfx/leaders/HOH/portrait_ilya_nesmiyan.dds"  # Path to portrait
-    ideology = democratic
-    traits = {
-	democratic_reformer
-    }  # Add traits like "popular_figure" or "democratic_reformer" if needed
+characters = {
+
+
+
+
+	HOH_ilya_nesmiyan = {
+    	name = "HOH_ilya_nesmiyan"  # Localization key
+    	ideology = democratic
+    	traits = {
+        	democratic_reformer  # Optional trait
+    		}
+	country_leader={
+			ideology=democratic
+			expire=1945.1.1.1
+			}
+	}
 }
